@@ -1,18 +1,13 @@
-# Project Description
-This project is a homework assignment to teach how to get Pycharm setup with Docker, Flask, MySQL, and Postman
+# Web Forms with Flask, Docker, PyCharm, and MySQL
+This project is to create HTML forms which are capable of creating, updating, and deleting records.  Docker Compose is being utilized to setup a python flask app and a mysql server which will load data from
+the db/init.sql file during the first start up of the database.  The flask framework is serving jinja template files and sending http POST
+requests to create, update, and delete records.
 
-## Assignments
-* [Assignment 3](formIntro-pycharm.pdf)
+## Screenshot of Table View in PyCharm:
+![pycharm table view](screenshots/Tables_PyCharm.png)
 
-## Videos
-* [Video 3 - Assignment 3](https://youtu.be/5WBYxNZz8Zw)
+## Screenshot of browser displaying homepage with new data:
+![homepage displaying new data](screenshots/Homepage_NewData.png)
 
-## Assignment 3 Readings
-* [More about Jinja Flask Templates](https://realpython.com/primer-on-jinja-templating/)
-* [Reference for Python MySQL - Note: We Use this with flask and on line 53 you can see how to adapt it to connect to the database connection through flask's single connection to mysql](https://www.w3schools.com/python/python_mysql_getstarted.asp)
-
-# Useful Links
-* [Flask Homepage and Documentation](https://flask.palletsprojects.com/en/1.1.x/)
-* [JSON Spec Reference](https://www.json.org/json-en.html)
-* [SimpleJSON Reference](https://simplejson.readthedocs.io/en/latest/)
-* [W3 Schools SQL Tutorial and Reference](https://www.w3schools.com/sql/)
+## Screenshot of browser displaying view of individual data record:
+![homepage displaying new data](screenshots/view_record.png)

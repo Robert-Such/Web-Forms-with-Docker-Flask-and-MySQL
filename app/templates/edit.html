@@ -7,36 +7,26 @@
             <input id="fldName" type="text" class="form-control" placeholder="Player Name" name="fldName" value="{{ player.fldName }}">
         </div>
         <div class="col">
-            <label for="fldTeam">player Abbreviation</label>
-            <input id="fldTeam" type="text" class="form-control" placeholder="Player Abbreviation"
-                   name="fldTeam" value="{{player.fldTeam}}">
+            <label for="fldTeam">Team</label>
+            <input id="fldTeam" type="text" class="form-control" placeholder="Team" name="fldTeam" value="{{ player.fldTeam }}">
         </div>
         <div class="col">
-            <label for="fldCountry">player Country</label>
-            <input id="fldCountry" type="text" class="form-control" placeholder="Player Country" name="fldCountry" value="{{player.fldCountry}}">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <label for="fldLat">player Latitude</label>
-            <input id="fldLat" type="text" class="form-control" placeholder="player Latitude" name="fldLat" value="{{player.fldLat}}">
-        </div>
-        <div class="col">
-            <label for="fldlong">player Longitude</label>
-            <input id="fldlong" type="text" class="form-control" placeholder="player Longitude" name="fldLong" value="{{player.fldLong}}">
+            <label for="fldPosition">Position</label>
+            <input id="fldPosition" type="text" class="form-control" placeholder="Position" name="fldPosition" value="{{ player.fldPosition }}">
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <label for="fldCapitalStatus">Capital Status</label>
-
-            <input id="fldCapitalStatus" type="text" class="form-control" placeholder="Capital Status"
-                   name="fldCapitalStatus" value="{{player.fldCapitalStatus}}">
+            <label for="fldHeight_inches">Height (inches)</label>
+            <input id="fldHeight_inches" type="text" class="form-control" placeholder="Height" name="fldHeight_inches" value="{{ player.fldHeight_inches }}">
         </div>
         <div class="col">
-            <label for="fldPopulation">player Population</label>
-            <input id="fldPopulation" type="text" class="form-control" placeholder="Population" name="fldPopulation" value="{{player.fldPopulation}}">
+            <label for="fldWeight_lbs">Weight (pounds)</label>
+            <input id="fldWeight_lbs" type="text" class="form-control" placeholder="Weight" name="fldWeight_lbs" value="{{ player.fldWeight_lbs }}">
+        </div>
+        <div class="col">
+            <label for="fldAge">Age</label>
+            <input id="fldAge" type="text" class="form-control" placeholder="Age" name="fldAge" value="{{ player.fldAge }}">
         </div>
     </div>
     <button type="submit" class="btn btn-success">Save</button>
