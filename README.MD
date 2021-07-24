@@ -10,4 +10,16 @@ requests to create, update, and delete records.
 ![homepage displaying new data](screenshots/Homepage_NewData.png)
 
 ## Screenshot of browser displaying view of individual data record:
-![homepage displaying new data](screenshots/view_record.png)
+![individual record](screenshots/view_record.png)
+
+## Screenshot of browser displaying new record in home page:
+(Note: The new record is "John Smith")
+![new record in home page](screenshots/NewRecord_HomePage.png)
+
+## Screenshot of browser displaying modified record in home page:
+(Note: The modified record is "Smith John", formerly "John Smith")
+![modified record in home page](screenshots/ModRecord_HomePage.png)
+
+## Screenshot of browser displaying deleted record in home page:
+(Note: The record was "Smith John")
+![deleted record in home page](screenshots/DeletedRecord_HomePage.png)
