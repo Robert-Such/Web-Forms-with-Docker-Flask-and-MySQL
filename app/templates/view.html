@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="card" class="m-5 p-2">
+    <h5 class="card-title">{{ player.fldName }}</h5>
+
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">{{ player.fldTeam }}</li>
+        <li class="list-group-item">{{ player.fldPosition }}</li>
+        <li class="list-group-item">{{ player.fldHeight_inches }}</li>
+        <li class="list-group-item">{{ player.fldWeight_lbs }}</li>
+        <li class="list-group-item">{{ player.fldAge }}</li>
+    </ul>
+    <div class="card-body">
+        <a href="/edit/{{ player.id }}" class="card-link btn btn-primary">edit</a>
+        <form action="/delete/{{ player.id }}" method="post">
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </form>
+    </div>
+</div>
+
+
+
+{% endblock %}
+
